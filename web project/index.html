@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>safari</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--css file link-->
+    <link rel="stylesheet" href="style0.css">
+</head>
+
+<body>
+    <!--header section-->
+    <header>
+
+        <img class="imge" src="imge/images.png">
+
+        <a href="#" class="logo">safari</a>
+
+        <nav class="navbar">
+            <a href="Book.html">Book</a>
+            <a href="service.html">About us</a>
+        </nav>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+    </header>
+    <!--header section ends-->
+
+    <!--home section-->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="imge/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="imge/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="imge/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="imge/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="imge/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="imge/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!--home section ends-->
+
+    <!--contact section -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+
+                    <img src="imge/contact-img.svg" alt="image contact">
+            </div>
+           
+            <form action="MAILTO:alaaashraf200150@gmail.com" method="POST">
+                <div class="inputBox">
+                        <input type="text" placeholder="name" name="name">
+                        <input type="email" placeholder="email" name="email">
+                </div>
+
+                <div class="inputBox">
+                        <input type="number" placeholder="number" name="number">
+                        <input type="text" placeholder="subject" name="subject">
+                </div>
+
+                <textarea placeholder="message" name="message" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+
+        </div>
+        
+    </section>
+    <!--contact section ends-->
+
+    <!--sound in back ground-->
+    <audio  controls autoplay loop preload="auto" >
+         
+        <source  src="Juice.mp3" type="audio/mpeg">
+        <source src="Juice.ogg" type="audio/ogg">
+  
+    </audio>
+
+    <!--js file link-->
+    <script src="script.js"></script>
+     
+</body>
+</html>
